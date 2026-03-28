@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1000001 /* FoundryPressApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001; };
+		A1000002 /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000002; };
+		A1000003 /* EditorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000003; };
+		A1000004 /* PreviewPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000004; };
+		A1000005 /* SyntaxHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000005; };
+		A1000006 /* TypstCompiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000006; };
+		A1000007 /* TemplateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000007; };
+		A1000008 /* TemplateSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000008; };
+		A1000009 /* TemplateLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000009; };
+		A100000A /* DocumentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000A; };
+		A100000B /* AutoSave.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000B; };
+		A100000C /* iCloudSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000C; };
+		A100000D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000D; };
+		A100000E /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000E; };
+		A100000F /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000F; };
+		A1000010 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000010; };
+		A1000011 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000011; };
+		A1000012 /* Resume.typ in Resources */ = {isa = PBXBuildFile; fileRef = A3000001; };
+		A1000013 /* Paper.typ in Resources */ = {isa = PBXBuildFile; fileRef = A3000002; };
+		A1000014 /* Thesis.typ in Resources */ = {isa = PBXBuildFile; fileRef = A3000003; };
+		A1000015 /* Letter.typ in Resources */ = {isa = PBXBuildFile; fileRef = A3000004; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A2000001 /* FoundryPressApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundryPressApp.swift; sourceTree = "<group>"; };
+		A2000002 /* EditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
+		A2000003 /* EditorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorViewModel.swift; sourceTree = "<group>"; };
+		A2000004 /* PreviewPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewPane.swift; sourceTree = "<group>"; };
+		A2000005 /* SyntaxHighlighter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyntaxHighlighter.swift; sourceTree = "<group>"; };
+		A2000006 /* TypstCompiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypstCompiler.swift; sourceTree = "<group>"; };
+		A2000007 /* TemplateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateManager.swift; sourceTree = "<group>"; };
+		A2000008 /* TemplateSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateSelector.swift; sourceTree = "<group>"; };
+		A2000009 /* TemplateLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateLibrary.swift; sourceTree = "<group>"; };
+		A200000A /* DocumentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentManager.swift; sourceTree = "<group>"; };
+		A200000B /* AutoSave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoSave.swift; sourceTree = "<group>"; };
+		A200000C /* iCloudSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCloudSync.swift; sourceTree = "<group>"; };
+		A200000D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A200000E /* UserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreferences.swift; sourceTree = "<group>"; };
+		A200000F /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		A2000010 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		A2000011 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		A3000001 /* Resume.typ */ = {isa = PBXFileReference; lastKnownFileType = text; path = Resume.typ; sourceTree = "<group>"; };
+		A3000002 /* Paper.typ */ = {isa = PBXFileReference; lastKnownFileType = text; path = Paper.typ; sourceTree = "<group>"; };
+		A3000003 /* Thesis.typ */ = {isa = PBXFileReference; lastKnownFileType = text; path = Thesis.typ; sourceTree = "<group>"; };
+		A3000004 /* Letter.typ */ = {isa = PBXFileReference; lastKnownFileType = text; path = Letter.typ; sourceTree = "<group>"; };
+		A4000001 /* FoundryPress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoundryPress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6000001 = {
+			isa = PBXGroup;
+			children = (
+				A6000002 /* Sources */,
+				A6000003 /* Resources */,
+				A6000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6000002 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A2000001 /* FoundryPressApp.swift */,
+				A6000005 /* Editor */,
+				A6000006 /* Templates */,
+				A6000007 /* Storage */,
+				A6000008 /* Settings */,
+				A6000009 /* Utilities */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		A6000003 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A600000A /* Templates */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A6000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4000001 /* FoundryPress.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6000005 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				A2000002 /* EditorView.swift */,
+				A2000003 /* EditorViewModel.swift */,
+				A2000004 /* PreviewPane.swift */,
+				A2000005 /* SyntaxHighlighter.swift */,
+				A2000006 /* TypstCompiler.swift */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
+		A6000006 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				A2000007 /* TemplateManager.swift */,
+				A2000008 /* TemplateSelector.swift */,
+				A2000009 /* TemplateLibrary.swift */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		A6000007 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				A200000A /* DocumentManager.swift */,
+				A200000B /* AutoSave.swift */,
+				A200000C /* iCloudSync.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		A6000008 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				A200000D /* SettingsView.swift */,
+				A200000E /* UserPreferences.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		A6000009 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A200000F /* Logger.swift */,
+				A2000010 /* Helpers.swift */,
+				A2000011 /* DesignSystem.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A600000A /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				A3000001 /* Resume.typ */,
+				A3000002 /* Paper.typ */,
+				A3000003 /* Thesis.typ */,
+				A3000004 /* Letter.typ */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7000001 /* FoundryPress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8000001 /* Build configuration list for PBXNativeTarget "FoundryPress" */;
+			buildPhases = (
+				A7000002 /* Sources */,
+				A5000001 /* Frameworks */,
+				A7000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoundryPress;
+			productName = FoundryPress;
+			productReference = A4000001 /* FoundryPress.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A7000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6000001;
+			productRefGroup = A6000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7000001 /* FoundryPress */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000012 /* Resume.typ in Resources */,
+				A1000013 /* Paper.typ in Resources */,
+				A1000014 /* Thesis.typ in Resources */,
+				A1000015 /* Letter.typ in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000001 /* FoundryPressApp.swift in Sources */,
+				A1000002 /* EditorView.swift in Sources */,
+				A1000003 /* EditorViewModel.swift in Sources */,
+				A1000004 /* PreviewPane.swift in Sources */,
+				A1000005 /* SyntaxHighlighter.swift in Sources */,
+				A1000006 /* TypstCompiler.swift in Sources */,
+				A1000007 /* TemplateManager.swift in Sources */,
+				A1000008 /* TemplateSelector.swift in Sources */,
+				A1000009 /* TemplateLibrary.swift in Sources */,
+				A100000A /* DocumentManager.swift in Sources */,
+				A100000B /* AutoSave.swift in Sources */,
+				A100000C /* iCloudSync.swift in Sources */,
+				A100000D /* SettingsView.swift in Sources */,
+				A100000E /* UserPreferences.swift in Sources */,
+				A100000F /* Logger.swift in Sources */,
+				A1000010 /* Helpers.swift in Sources */,
+				A1000011 /* DesignSystem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B1000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B2000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Foundry Press";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_LSUIElement = NO;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.foundry.press;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B2000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Foundry Press";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_LSUIElement = NO;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.foundry.press;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8000001 /* Build configuration list for PBXNativeTarget "FoundryPress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2000001 /* Debug */,
+				B2000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3000001 /* Build configuration list for PBXProject "FoundryPress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1000001 /* Debug */,
+				B1000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9000001 /* Project object */;
+}

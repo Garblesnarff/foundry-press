@@ -1,0 +1,14 @@
+{
+  "app_name": "Press",
+  "subtitle": "Typst Editor with Live Preview",
+  "description": "Press is a focused document editor built around Typst, the modern markup language for professional typesetting. Write on the left, see a pixel-perfect PDF preview on the right -- updated in real time as you type.\n\nLive Split-Pane Editing\nThe split-pane interface shows your Typst source and the rendered PDF side by side. Every keystroke triggers an instant re-render, giving you immediate visual feedback without manual compile steps.\n\nSyntax Highlighting & Smart Editing\nPress provides full syntax highlighting for Typst markup, along with bracket matching, auto-indentation, and code folding. The editor is designed to make Typst authoring feel as fluid as writing in a modern code editor.\n\nTemplates for Common Documents\nStart from built-in templates for letters, reports, academic papers, resumes, and slide decks. Each template is fully editable Typst source, so you can customize every detail to match your needs.\n\nOne-Click PDF Export\nWhen your document is ready, export a polished PDF with a single click. Press renders publication-quality output with precise typography, mathematical equations, and vector graphics.\n\nKey Features:\n- Real-time split-pane Typst editor and PDF preview\n- Full syntax highlighting and smart editing aids\n- Built-in document templates for quick starts\n- One-click PDF export with professional typesetting\n- Lightweight and fast, even with large documents\n- Native macOS interface with Dark Mode support",
+  "keywords": "typst,editor,document,pdf,preview,typesetting,writing,markup,latex,publishing",
+  "primary_category": "Productivity",
+  "secondary_category": "",
+  "age_rating": "4+",
+  "copyright": "2026 Hanson Foundry",
+  "privacy_url": "https://hansonfoundry.com/privacy",
+  "support_url": "https://hansonfoundry.com/support",
+  "version": "1.0.0",
+  "bundle_id": "com.hansonfoundry.Press"
+}

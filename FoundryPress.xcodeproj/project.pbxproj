@@ -3,271 +3,220 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A1000001 /* FoundryPressApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001; };
-		A1000002 /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000002; };
-		A1000003 /* EditorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000003; };
-		A1000004 /* PreviewPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000004; };
-		A1000005 /* SyntaxHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000005; };
-		A1000006 /* TypstCompiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000006; };
-		A1000007 /* TemplateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000007; };
-		A1000008 /* TemplateSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000008; };
-		A1000009 /* TemplateLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000009; };
-		A100000A /* DocumentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000A; };
-		A100000B /* AutoSave.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000B; };
-		A100000C /* iCloudSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000C; };
-		A100000D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000D; };
-		A100000E /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000E; };
-		A100000F /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000F; };
-		A1000010 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000010; };
-		A1000011 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000011; };
-		A1000012 /* Resume.typ in Resources */ = {isa = PBXBuildFile; fileRef = A3000001; };
-		A1000013 /* Paper.typ in Resources */ = {isa = PBXBuildFile; fileRef = A3000002; };
-		A1000014 /* Thesis.typ in Resources */ = {isa = PBXBuildFile; fileRef = A3000003; };
-		A1000015 /* Letter.typ in Resources */ = {isa = PBXBuildFile; fileRef = A3000004; };
+		024F54F1F34F99508B41E2BD /* TemplateLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4C09A186C8F3CD98E2BD48 /* TemplateLibrary.swift */; };
+		096BD95574AB193C795C3575 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A76961A282EBB52C1C96FF4 /* Logger.swift */; };
+		378E7BBFCE5D6838B1A87B11 /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55B835217BF402E0E7D53F1 /* UserPreferences.swift */; };
+		4658EBF6BB1B35B4C487CA2C /* TemplateSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34F80168F8D9C10F0A9B30A /* TemplateSelector.swift */; };
+		5631CA798A66F443F12C885D /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C328968B54F29185F0240E /* Helpers.swift */; };
+		697AE63CEBBE42B98CCE6C0B /* AutoSave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904CABDCA4D880FD92D50831 /* AutoSave.swift */; };
+		6EE2A6B878D81039F2E23A6A /* PreviewPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20F81C3C571E56A271ACA60 /* PreviewPane.swift */; };
+		7CBB1457CD156C56832D4AB7 /* TemplateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30976FBD2DFD653E34BCF4AC /* TemplateManager.swift */; };
+		7DD6AC65722E6D342E5F7EC1 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753FADF9CB2376ACA4D47623 /* SettingsView.swift */; };
+		A495BCEA3FCCAB55E84663F6 /* iCloudSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF89F22D8DC445CBA27BDA7 /* iCloudSync.swift */; };
+		B3E8A8316EADDFC6A6E300F7 /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A777626A12F170129296AA /* EditorView.swift */; };
+		E2E031471F1B261D5C90ADE5 /* DocumentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FCCF64E18DFC19C9B8E71F /* DocumentManager.swift */; };
+		E4D1EC2F50670C95F82423FF /* TypstCompiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428D4953FDA9EDB626F5A439 /* TypstCompiler.swift */; };
+		E86C004C316588ECF6FCDDCF /* SyntaxHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32A07CD545F1D71574DC6A6 /* SyntaxHighlighter.swift */; };
+		F2D334334BEE56328A04EF2D /* EditorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D6FAAA3486660D9D69A56 /* EditorViewModel.swift */; };
+		F57D44D2ED065F476D5CB106 /* FoundryPressApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3539AEB08CBD82A884B0AFE5 /* FoundryPressApp.swift */; };
+		FEF5218BDABC7F900D15D6BD /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDA5852083C610624BF9F41 /* DesignSystem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A2000001 /* FoundryPressApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundryPressApp.swift; sourceTree = "<group>"; };
-		A2000002 /* EditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
-		A2000003 /* EditorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorViewModel.swift; sourceTree = "<group>"; };
-		A2000004 /* PreviewPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewPane.swift; sourceTree = "<group>"; };
-		A2000005 /* SyntaxHighlighter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyntaxHighlighter.swift; sourceTree = "<group>"; };
-		A2000006 /* TypstCompiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypstCompiler.swift; sourceTree = "<group>"; };
-		A2000007 /* TemplateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateManager.swift; sourceTree = "<group>"; };
-		A2000008 /* TemplateSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateSelector.swift; sourceTree = "<group>"; };
-		A2000009 /* TemplateLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateLibrary.swift; sourceTree = "<group>"; };
-		A200000A /* DocumentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentManager.swift; sourceTree = "<group>"; };
-		A200000B /* AutoSave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoSave.swift; sourceTree = "<group>"; };
-		A200000C /* iCloudSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCloudSync.swift; sourceTree = "<group>"; };
-		A200000D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		A200000E /* UserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreferences.swift; sourceTree = "<group>"; };
-		A200000F /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
-		A2000010 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
-		A2000011 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
-		A3000001 /* Resume.typ */ = {isa = PBXFileReference; lastKnownFileType = text; path = Resume.typ; sourceTree = "<group>"; };
-		A3000002 /* Paper.typ */ = {isa = PBXFileReference; lastKnownFileType = text; path = Paper.typ; sourceTree = "<group>"; };
-		A3000003 /* Thesis.typ */ = {isa = PBXFileReference; lastKnownFileType = text; path = Thesis.typ; sourceTree = "<group>"; };
-		A3000004 /* Letter.typ */ = {isa = PBXFileReference; lastKnownFileType = text; path = Letter.typ; sourceTree = "<group>"; };
-		A4000001 /* FoundryPress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoundryPress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13FCCF64E18DFC19C9B8E71F /* DocumentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentManager.swift; sourceTree = "<group>"; };
+		2E8D6FAAA3486660D9D69A56 /* EditorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorViewModel.swift; sourceTree = "<group>"; };
+		30976FBD2DFD653E34BCF4AC /* TemplateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateManager.swift; sourceTree = "<group>"; };
+		3539AEB08CBD82A884B0AFE5 /* FoundryPressApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundryPressApp.swift; sourceTree = "<group>"; };
+		39FB4BD4C3E22164406B9D69 /* FoundryPress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoundryPress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A4C09A186C8F3CD98E2BD48 /* TemplateLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateLibrary.swift; sourceTree = "<group>"; };
+		428D4953FDA9EDB626F5A439 /* TypstCompiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypstCompiler.swift; sourceTree = "<group>"; };
+		5CDA5852083C610624BF9F41 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		753FADF9CB2376ACA4D47623 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7A76961A282EBB52C1C96FF4 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		904CABDCA4D880FD92D50831 /* AutoSave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoSave.swift; sourceTree = "<group>"; };
+		A0C328968B54F29185F0240E /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		BDF89F22D8DC445CBA27BDA7 /* iCloudSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCloudSync.swift; sourceTree = "<group>"; };
+		D20F81C3C571E56A271ACA60 /* PreviewPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewPane.swift; sourceTree = "<group>"; };
+		D32A07CD545F1D71574DC6A6 /* SyntaxHighlighter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyntaxHighlighter.swift; sourceTree = "<group>"; };
+		E55B835217BF402E0E7D53F1 /* UserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreferences.swift; sourceTree = "<group>"; };
+		E8A777626A12F170129296AA /* EditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
+		F34F80168F8D9C10F0A9B30A /* TemplateSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateSelector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFrameworksBuildPhase section */
-		A5000001 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
 /* Begin PBXGroup section */
-		A6000001 = {
+		07FCB19E9F53DE8204DC5CD5 /* Templates */ = {
 			isa = PBXGroup;
 			children = (
-				A6000002 /* Sources */,
-				A6000003 /* Resources */,
-				A6000004 /* Products */,
+				3A4C09A186C8F3CD98E2BD48 /* TemplateLibrary.swift */,
+				30976FBD2DFD653E34BCF4AC /* TemplateManager.swift */,
+				F34F80168F8D9C10F0A9B30A /* TemplateSelector.swift */,
 			);
+			path = Templates;
 			sourceTree = "<group>";
 		};
-		A6000002 /* Sources */ = {
+		176898669DF6D73CC012AC73 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				A2000001 /* FoundryPressApp.swift */,
-				A6000005 /* Editor */,
-				A6000006 /* Templates */,
-				A6000007 /* Storage */,
-				A6000008 /* Settings */,
-				A6000009 /* Utilities */,
+				3539AEB08CBD82A884B0AFE5 /* FoundryPressApp.swift */,
+				8835BEC0B768F2E5D7D2E1FD /* Editor */,
+				E2D066D9BAE8BC6701369CEB /* Settings */,
+				EBDB98479DF7CAE2B487506C /* Storage */,
+				07FCB19E9F53DE8204DC5CD5 /* Templates */,
+				F824EED167293130EE0BF26F /* Utilities */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		A6000003 /* Resources */ = {
+		6B5A7158258A00BAE687AFE6 = {
 			isa = PBXGroup;
 			children = (
-				A600000A /* Templates */,
+				176898669DF6D73CC012AC73 /* Sources */,
+				BDD495E0E2438280F539CF4F /* Products */,
 			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
-		A6000004 /* Products */ = {
+		8835BEC0B768F2E5D7D2E1FD /* Editor */ = {
 			isa = PBXGroup;
 			children = (
-				A4000001 /* FoundryPress.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		A6000005 /* Editor */ = {
-			isa = PBXGroup;
-			children = (
-				A2000002 /* EditorView.swift */,
-				A2000003 /* EditorViewModel.swift */,
-				A2000004 /* PreviewPane.swift */,
-				A2000005 /* SyntaxHighlighter.swift */,
-				A2000006 /* TypstCompiler.swift */,
+				E8A777626A12F170129296AA /* EditorView.swift */,
+				2E8D6FAAA3486660D9D69A56 /* EditorViewModel.swift */,
+				D20F81C3C571E56A271ACA60 /* PreviewPane.swift */,
+				D32A07CD545F1D71574DC6A6 /* SyntaxHighlighter.swift */,
+				428D4953FDA9EDB626F5A439 /* TypstCompiler.swift */,
 			);
 			path = Editor;
 			sourceTree = "<group>";
 		};
-		A6000006 /* Templates */ = {
+		BDD495E0E2438280F539CF4F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A2000007 /* TemplateManager.swift */,
-				A2000008 /* TemplateSelector.swift */,
-				A2000009 /* TemplateLibrary.swift */,
+				39FB4BD4C3E22164406B9D69 /* FoundryPress.app */,
 			);
-			path = Templates;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		A6000007 /* Storage */ = {
+		E2D066D9BAE8BC6701369CEB /* Settings */ = {
 			isa = PBXGroup;
 			children = (
-				A200000A /* DocumentManager.swift */,
-				A200000B /* AutoSave.swift */,
-				A200000C /* iCloudSync.swift */,
-			);
-			path = Storage;
-			sourceTree = "<group>";
-		};
-		A6000008 /* Settings */ = {
-			isa = PBXGroup;
-			children = (
-				A200000D /* SettingsView.swift */,
-				A200000E /* UserPreferences.swift */,
+				753FADF9CB2376ACA4D47623 /* SettingsView.swift */,
+				E55B835217BF402E0E7D53F1 /* UserPreferences.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
 		};
-		A6000009 /* Utilities */ = {
+		EBDB98479DF7CAE2B487506C /* Storage */ = {
 			isa = PBXGroup;
 			children = (
-				A200000F /* Logger.swift */,
-				A2000010 /* Helpers.swift */,
-				A2000011 /* DesignSystem.swift */,
+				904CABDCA4D880FD92D50831 /* AutoSave.swift */,
+				13FCCF64E18DFC19C9B8E71F /* DocumentManager.swift */,
+				BDF89F22D8DC445CBA27BDA7 /* iCloudSync.swift */,
 			);
-			path = Utilities;
+			path = Storage;
 			sourceTree = "<group>";
 		};
-		A600000A /* Templates */ = {
+		F824EED167293130EE0BF26F /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				A3000001 /* Resume.typ */,
-				A3000002 /* Paper.typ */,
-				A3000003 /* Thesis.typ */,
-				A3000004 /* Letter.typ */,
+				5CDA5852083C610624BF9F41 /* DesignSystem.swift */,
+				A0C328968B54F29185F0240E /* Helpers.swift */,
+				7A76961A282EBB52C1C96FF4 /* Logger.swift */,
 			);
-			path = Templates;
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A7000001 /* FoundryPress */ = {
+		DE1A9A8643D85420C0C8DD2C /* FoundryPress */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8000001 /* Build configuration list for PBXNativeTarget "FoundryPress" */;
+			buildConfigurationList = 35EBCF1A1B5EACC2A77208BC /* Build configuration list for PBXNativeTarget "FoundryPress" */;
 			buildPhases = (
-				A7000002 /* Sources */,
-				A5000001 /* Frameworks */,
-				A7000003 /* Resources */,
+				663C5A7C239E1E7A39CCD6FD /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = FoundryPress;
+			packageProductDependencies = (
+			);
 			productName = FoundryPress;
-			productReference = A4000001 /* FoundryPress.app */;
+			productReference = 39FB4BD4C3E22164406B9D69 /* FoundryPress.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A9000001 /* Project object */ = {
+		43C4C0A9846E3F24502B5555 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1640;
 				TargetAttributes = {
-					A7000001 = {
-						CreatedOnToolsVersion = 15.0;
+					DE1A9A8643D85420C0C8DD2C = {
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			compatibilityVersion = "Xcode 14.0";
+			buildConfigurationList = A6E5E34BDA54B8ECA2FC3DC6 /* Build configuration list for PBXProject "FoundryPress" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
-			mainGroup = A6000001;
-			productRefGroup = A6000004 /* Products */;
+			mainGroup = 6B5A7158258A00BAE687AFE6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BDD495E0E2438280F539CF4F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A7000001 /* FoundryPress */,
+				DE1A9A8643D85420C0C8DD2C /* FoundryPress */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		A7000003 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A1000012 /* Resume.typ in Resources */,
-				A1000013 /* Paper.typ in Resources */,
-				A1000014 /* Thesis.typ in Resources */,
-				A1000015 /* Letter.typ in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		A7000002 /* Sources */ = {
+		663C5A7C239E1E7A39CCD6FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1000001 /* FoundryPressApp.swift in Sources */,
-				A1000002 /* EditorView.swift in Sources */,
-				A1000003 /* EditorViewModel.swift in Sources */,
-				A1000004 /* PreviewPane.swift in Sources */,
-				A1000005 /* SyntaxHighlighter.swift in Sources */,
-				A1000006 /* TypstCompiler.swift in Sources */,
-				A1000007 /* TemplateManager.swift in Sources */,
-				A1000008 /* TemplateSelector.swift in Sources */,
-				A1000009 /* TemplateLibrary.swift in Sources */,
-				A100000A /* DocumentManager.swift in Sources */,
-				A100000B /* AutoSave.swift in Sources */,
-				A100000C /* iCloudSync.swift in Sources */,
-				A100000D /* SettingsView.swift in Sources */,
-				A100000E /* UserPreferences.swift in Sources */,
-				A100000F /* Logger.swift in Sources */,
-				A1000010 /* Helpers.swift in Sources */,
-				A1000011 /* DesignSystem.swift in Sources */,
+				697AE63CEBBE42B98CCE6C0B /* AutoSave.swift in Sources */,
+				FEF5218BDABC7F900D15D6BD /* DesignSystem.swift in Sources */,
+				E2E031471F1B261D5C90ADE5 /* DocumentManager.swift in Sources */,
+				B3E8A8316EADDFC6A6E300F7 /* EditorView.swift in Sources */,
+				F2D334334BEE56328A04EF2D /* EditorViewModel.swift in Sources */,
+				F57D44D2ED065F476D5CB106 /* FoundryPressApp.swift in Sources */,
+				5631CA798A66F443F12C885D /* Helpers.swift in Sources */,
+				096BD95574AB193C795C3575 /* Logger.swift in Sources */,
+				6EE2A6B878D81039F2E23A6A /* PreviewPane.swift in Sources */,
+				7DD6AC65722E6D342E5F7EC1 /* SettingsView.swift in Sources */,
+				E86C004C316588ECF6FCDDCF /* SyntaxHighlighter.swift in Sources */,
+				024F54F1F34F99508B41E2BD /* TemplateLibrary.swift in Sources */,
+				7CBB1457CD156C56832D4AB7 /* TemplateManager.swift in Sources */,
+				4658EBF6BB1B35B4C487CA2C /* TemplateSelector.swift in Sources */,
+				E4D1EC2F50670C95F82423FF /* TypstCompiler.swift in Sources */,
+				378E7BBFCE5D6838B1A87B11 /* UserPreferences.swift in Sources */,
+				A495BCEA3FCCAB55E84663F6 /* iCloudSync.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		B1000001 /* Debug */ = {
+		597E35F3A31562B6FD9F5EF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -297,14 +246,13 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
 					"$(inherited)",
+					"DEBUG=1",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -312,25 +260,47 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		B1000002 /* Release */ = {
+		E4B1E71507DD81A8E3D377E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_GENERATION_MODE = GeneratedByXcode;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hanson-foundry.foundrypress";
+				PRODUCT_NAME = FoundryPress;
+				SDKROOT = macosx;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		E4FC2837FBFBE1DB2D105FFC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -360,8 +330,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -369,97 +338,60 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		B2000001 /* Debug */ = {
+		FD53BB3A19283EBEE9954632 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "";
-				DEVELOPMENT_TEAM = "";
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Foundry Press";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
-				INFOPLIST_KEY_LSUIElement = NO;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_GENERATION_MODE = GeneratedByXcode;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.foundry.press;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hanson-foundry.foundrypress";
+				PRODUCT_NAME = FoundryPress;
+				SDKROOT = macosx;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.9;
 			};
 			name = Debug;
-		};
-		B2000002 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "";
-				DEVELOPMENT_TEAM = "";
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Foundry Press";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
-				INFOPLIST_KEY_LSUIElement = NO;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.foundry.press;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A8000001 /* Build configuration list for PBXNativeTarget "FoundryPress" */ = {
+		35EBCF1A1B5EACC2A77208BC /* Build configuration list for PBXNativeTarget "FoundryPress" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B2000001 /* Debug */,
-				B2000002 /* Release */,
+				FD53BB3A19283EBEE9954632 /* Debug */,
+				E4B1E71507DD81A8E3D377E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		B3000001 /* Build configuration list for PBXProject "FoundryPress" */ = {
+		A6E5E34BDA54B8ECA2FC3DC6 /* Build configuration list for PBXProject "FoundryPress" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B1000001 /* Debug */,
-				B1000002 /* Release */,
+				597E35F3A31562B6FD9F5EF6 /* Debug */,
+				E4FC2837FBFBE1DB2D105FFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A9000001 /* Project object */;
+	rootObject = 43C4C0A9846E3F24502B5555 /* Project object */;
 }

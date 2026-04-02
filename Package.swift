@@ -16,7 +16,8 @@ let package = Package(
     targets: [
         .executableTarget(
             name: "FoundryPress",
-            path: "Sources"
+            path: "Sources",
+            resources: [.process("PrivacyInfo.xcprivacy")],
         )
     ]
 )

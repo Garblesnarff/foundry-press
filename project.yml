@@ -13,7 +13,7 @@ targets:
       - path: Sources
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.hanson-foundry.foundrypress
+        PRODUCT_BUNDLE_IDENTIFIER: com.hanson-foundry.press
         PRODUCT_NAME: FoundryPress
         MACOSX_DEPLOYMENT_TARGET: "13.0"
         SWIFT_VERSION: "5.9"

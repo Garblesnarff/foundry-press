@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		024F54F1F34F99508B41E2BD /* TemplateLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4C09A186C8F3CD98E2BD48 /* TemplateLibrary.swift */; };
 		096BD95574AB193C795C3575 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A76961A282EBB52C1C96FF4 /* Logger.swift */; };
+		10D3850A609401700543D920 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E3FAC7FBF3BB10C911F40B62 /* PrivacyInfo.xcprivacy */; };
 		378E7BBFCE5D6838B1A87B11 /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55B835217BF402E0E7D53F1 /* UserPreferences.swift */; };
 		4658EBF6BB1B35B4C487CA2C /* TemplateSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34F80168F8D9C10F0A9B30A /* TemplateSelector.swift */; };
 		5631CA798A66F443F12C885D /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C328968B54F29185F0240E /* Helpers.swift */; };
@@ -42,6 +43,7 @@
 		BDF89F22D8DC445CBA27BDA7 /* iCloudSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCloudSync.swift; sourceTree = "<group>"; };
 		D20F81C3C571E56A271ACA60 /* PreviewPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewPane.swift; sourceTree = "<group>"; };
 		D32A07CD545F1D71574DC6A6 /* SyntaxHighlighter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyntaxHighlighter.swift; sourceTree = "<group>"; };
+		E3FAC7FBF3BB10C911F40B62 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		E55B835217BF402E0E7D53F1 /* UserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreferences.swift; sourceTree = "<group>"; };
 		E8A777626A12F170129296AA /* EditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
 		F34F80168F8D9C10F0A9B30A /* TemplateSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateSelector.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				3539AEB08CBD82A884B0AFE5 /* FoundryPressApp.swift */,
+				E3FAC7FBF3BB10C911F40B62 /* PrivacyInfo.xcprivacy */,
 				8835BEC0B768F2E5D7D2E1FD /* Editor */,
 				E2D066D9BAE8BC6701369CEB /* Settings */,
 				EBDB98479DF7CAE2B487506C /* Storage */,
@@ -136,6 +139,7 @@
 			buildConfigurationList = 35EBCF1A1B5EACC2A77208BC /* Build configuration list for PBXNativeTarget "FoundryPress" */;
 			buildPhases = (
 				663C5A7C239E1E7A39CCD6FD /* Sources */,
+				A4159E16964B73785FB1BA23 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -180,6 +184,17 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4159E16964B73785FB1BA23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10D3850A609401700543D920 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		663C5A7C239E1E7A39CCD6FD /* Sources */ = {
@@ -285,7 +300,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hanson-foundry.foundrypress";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanson-foundry.press;
 				PRODUCT_NAME = FoundryPress;
 				SDKROOT = macosx;
 				SWIFT_STRICT_CONCURRENCY = minimal;
@@ -362,7 +377,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hanson-foundry.foundrypress";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanson-foundry.press;
 				PRODUCT_NAME = FoundryPress;
 				SDKROOT = macosx;
 				SWIFT_STRICT_CONCURRENCY = minimal;
